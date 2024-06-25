@@ -1,0 +1,13 @@
+
+mysql> CREATE DATABASE stud;
+Query OK, 1 row affected (0.01 sec)
+
+mysql> connect stud;
+Connection id:    22
+Current database: stud
+
+mysql> create table Student( roll_no int, frist_name varchar(255),
+last_name varchar(255), address varchar(255));
+Query OK, 0 rows affected (0.02 sec)
+
+mysql>
